@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Array demo</title>
+</head>
+<body>
+     <button onclick="add()">Add Elements</button>
+     <p id>="Demo"> </p>
+<script>
+          var  a=new Array();
+a[0]=”C”;
+a[1]=”C++”;
+document.write(a[0]+"<br>"+a[1]);
+function add()
+{
+a.push(“Java”);
+a.push(“VB”,”PHP”);
+document.write(“New length after push method=”+a.length+”<br>”);
+}
+for(var i=0;i<a.length;i++)
+{
+document.write(a[i]);
+}
+</script>
+</body>
+</html>

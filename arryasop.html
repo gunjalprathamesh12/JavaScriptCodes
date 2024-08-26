@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Array Operations</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="addele()">Add Lemon</button>
+    <script>
+        var fruits = ["BANANA", "APPLE", "MANGO", "PAPAYA"];
+        document.getElementById("demo").innerHTML = fruits;
+
+        function addele() {
+            fruits.push("LEMON");
+            document.getElementById("demo").innerHTML = fruits;
+            console.log(fruits); // Use console.log instead of document.write for better practice
+        }
+    </script>
+</body>
+</html>
