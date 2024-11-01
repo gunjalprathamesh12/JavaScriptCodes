@@ -1,8 +1,3 @@
-
-
-
-
-
 # JavaScript
 javascript Prgograms
 javascript
